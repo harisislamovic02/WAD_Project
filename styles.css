@@ -1,15 +1,33 @@
-/*
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
 }
 
 header {
     background-color: #dc143c; 
     color: #fff;
     text-align: center;
-    padding: 1em;
+    padding: 1px;
+}
+
+footer {
+    background-color: #dc143c;
+    color: #fff;
+    text-align: center;
+    padding: 5px;
+    position: relative; 
+    bottom: 0;
+    width: 100%;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    
 }
 
 nav {
@@ -19,7 +37,6 @@ nav {
 }
 
 nav ul {
-    list-style-type: none;
     margin: 0;
     padding: 0;
     display: flex;
@@ -31,14 +48,8 @@ nav a {
     color: #fff;
 }
 
-main {
-    max-width: 800px;
-    margin: 20px auto;
-    padding: 20px;
-}
-
-section {
-    margin-bottom: 20px;
+ul{
+    list-style-type: none;
 }
 
 .question {
@@ -47,14 +58,45 @@ section {
     margin-bottom: 20px;
 }
 
-footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 5px;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+.champions_table{
+    width: 80%;
+    margin: 20px;
+    border-collapse: collapse;
+    
 }
-/* */
+
+
+.champions_table caption {
+    font-size: 1.5px;
+    font-weight: bold;
+}
+
+
+.champions_table th {
+    background-color: cornflowerblue; 
+    color: #fff; 
+    padding: 10px;
+    border: 1px solid gray;
+    text-align: center;
+}
+
+
+.champions_table td {
+    border: 1px solid gray;
+    text-align: center;
+    padding: 8px;
+}
+
+
+.champions_table td {
+    background-color: white; 
+}
+
+.drivers{
+    display: flex;
+    gap: 100px;
+}
+
+
+
 
