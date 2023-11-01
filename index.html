@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Ferrari F1</title>
 </head>
 <body>
     <header>
-        <h1>Ferrari F1</h1>
+         <h1>Ferrari F1</h1>
     </header>
 
     <nav>
@@ -21,7 +22,7 @@
     </nav>
 
     <main>
-        <section id="history">
+        <div id="history">
             <h2>History and Achievements</h2>
             <p>Scuderia Ferrari, founded by Enzo Ferrari in 1929, stands as an enduring symbol of excellence in Formula 1. The team's journey through the decades is a narrative of innovation, passion, and unparalleled success. In 1950, Ferrari entered the Formula One World Championship, and from that moment, a legacy of speed and determination began.
 
@@ -30,102 +31,171 @@
                 The team's iconic red cars, powered by the unmistakable roar of the Ferrari engine, have graced circuits worldwide, capturing the hearts of fans and embodying the spirit of racing. Over the years, Ferrari has seen legendary drivers, including Kimi Räikkönen and Fernando Alonso, add their chapters to the team's storied history.
                 
                 Ferrari's commitment to excellence extends beyond the racetrack. The Scuderia is a cultural phenomenon, an embodiment of Italian style, and a symbol of automotive artistry. Despite facing challenges in recent seasons, the allure of Ferrari in Formula 1 endures, and its fervent fanbase remains unwavering.</p>
-        </section>
-
-        <section id="drivers">
-            <h2>Current Drivers</h2>
-            <ul>
-                <img src="images/charles-leclerc.jpg" alt="Charles Leclerc" />
-                <li>Charles Leclerec (2019-)</li>
-                <img src="images/carlos-sainz.jpg" alt="Carlos Sainz">
-                <li>Carlos Sainz (2021-)</li>
-            </ul>
-            <h2>Previous Drivers</h2>
-            <ul>
-                <img src="images/Michael-Schumacher.jpg" alt="Michael Schumacher">
-                <li>Michael Schumacher (1996-2006)</li>
-                <img src="images/Fangio.jpg" alt=">Juan Manuel Fangio" height="300" width="300">
-                <li>Juan Manuel Fangio (1956-1957)</li>
-                <img src="images/alberto-ascari.jpg" alt="Alberto Ascari">
-                <li>Alberto Ascari (1950-1953)</li>
-                <img src="images/Niki-Lauda.webp" alt="Niki Lauda" height="300" width="300">
-                <li>Niki Lauda (1974-1977)</li>
-                <img src="images/kimi.avif" alt="Kimi Raikkonen" height="300" width="450">
-                <li>Kimi Raikkonen (2007-2009)</li>
-            </ul>
-        </section>
-
-        <section id="monza">
+                
+                <table class="champions_table">
+                    <caption>Ferrari Formula 1 World Champions</caption>
+                    <thead>
+                        <tr>
+                            <th>Driver</th>
+                            <th>Year</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Alberto Ascari</td>
+                            <td>1952, 1953</td>
+                        </tr>
+                        <tr>
+                            <td>Juan Manuel Fangio</td>
+                            <td>1956</td>
+                        </tr>
+                        <tr>
+                            <td>Mike Hawthorn</td>
+                            <td>1958</td>
+                        </tr>
+                        <tr>
+                            <td>Phil Hill</td>
+                            <td>1961</td>
+                        </tr>
+                        <tr>
+                            <td>John Surtees</td>
+                            <td>1964</td>
+                        </tr>
+                        <tr>
+                            <td>Niki Lauda</td>
+                            <td>1975, 1977</td>
+                        </tr>
+                        <tr>
+                            <td>Jody Scheckter</td>
+                            <td>1979</td>
+                        </tr>
+                        <tr>
+                            <td>Michael Schumacher</td>
+                            <td>2000, 2001, 2002, 2003, 2004</td>
+                        </tr>
+                        <tr>
+                            <td>Kimi Räikkönen</td>
+                            <td>2007</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            
+        <div class="drivers">
+            <div class="current_drivers">
+                <h2>Current Drivers</h2>
+                    <ul>
+                        <img src="images/charles-leclerc.jpg" alt="Charles Leclerc" />
+                        <li>Charles Leclerec (2019-)</li>
+                        <img src="images/carlos-sainz.jpg" alt="Carlos Sainz">
+                        <li>Carlos Sainz (2021-)</li>
+                    </ul>
+            </div>
+            <div class="previous_drivers">
+                <h2>Previous Drivers</h2>
+                    <ul>
+                        <img src="images/Michael-Schumacher.jpg" alt="Michael Schumacher">
+                        <li>Michael Schumacher (1996-2006)</li>
+                        <img src="images/Fangio.jpg" alt=">Juan Manuel Fangio" height="300" width="300">
+                        <li>Juan Manuel Fangio (1956-1957)</li>
+                        <img src="images/alberto-ascari.jpg" alt="Alberto Ascari">
+                        <li>Alberto Ascari (1950-1953)</li>
+                        <img src="images/Niki-Lauda.webp" alt="Niki Lauda" height="300" width="300">
+                        <li>Niki Lauda (1974-1977)</li>
+                        <img src="images/kimi.avif" alt="Kimi Raikkonen" height="300" width="450">
+                        <li>Kimi Raikkonen (2007-2009)</li>
+                    </ul>
+            </div>
+        </div>
+        
+        <div id="monza">
             <h2>Monza</h2>
             <img src="images/monza aerial view.webp" alt="Monza" width="500" style="margin-right: 100px;">
             <img src="images/monza layout.avif" alt="Monza layout" width="500"> 
             <p>
                 The Autodromo Nazionale Monza, nestled in the royal park near Milan, Italy, is a cathedral of speed and a shrine to motorsport history. Renowned as one of the oldest and fastest racetracks in the world, Monza is an iconic venue that has witnessed the roars of Formula One engines for decades. Its long straights and high-speed chicanes, notably the Parabolica, test the mettle of both man and machine, creating an atmosphere of sheer adrenaline. Home to the passionate "tifosi," Monza is a place where the echoes of motorsport legends resonate through the ancient trees, making every race a thrilling chapter in the annals of racing history. The circuit's rich heritage, coupled with its unparalleled speed, ensures that Monza remains a beloved cornerstone of the Formula One calendar.
             </p>
-        </section> 
+        </div> 
 
-        <section id="quiz">
+        <div id="quiz">
             <h2>Quiz</h2>
             <div class="questions">
                 <p>What year was Scuderia Ferrari founded?</p>
             </div> 
-            <div class="answers">   
-            <ul>
-                <li><input type="radio" name="q1" id="q1a1"><label for="q1a1">1929</label></li>
-                <li><input type="radio" name="q1" id="q1a2"><label for="q1a2">1947</label></li>
-                <li><input type="radio" name="q1" id="q1a3"><label for="q1a3">1955</label></li>
-                <li><input type="radio" name="q1" id="q1a4"><label for="q1a4">1962</label></li>
-            </ul>
+            <div class="answers">
+                <div class="answer1">      
+                <ul>
+                    <li><input type="radio" name="q1a1" id="q1a1"><label for="q1a1">1929</label></li>
+                    <li><input type="radio" name="q1a2" id="q1a2"><label for="q1a2">1947</label></li>
+                    <li><input type="radio" name="q1a3" id="q1a3"><label for="q1a3">1955</label></li>
+                    <li><input type="radio" name="q1a4" id="q1a4"><label for="q1a4">1962</label></li>
+                </ul>
+                </div>
             </div>
             <div class="questions">
                 <p>Who is often referred to as the "Red Baron" and secured five consecutive Drivers' Championships for Ferrari?</p>
             </div> 
-            <div class="answers">   
-            <ul>
-                <li><input type="radio" name="q1" id="q1a1"><label for="q1a1">Sebastian Vettel</label></li>
-                <li><input type="radio" name="q1" id="q1a2"><label for="q1a2">Kimi Räikkönen</label></li>
-                <li><input type="radio" name="q1" id="q1a3"><label for="q1a3">Michael Schumacher</label></li>
-                <li><input type="radio" name="q1" id="q1a4"><label for="q1a4">Fernando Alonso</label></li>
-            </ul>
+            <div class="answers">
+                <div class="answer2">   
+                <ul>
+                    <li><input type="radio" name="q2a1" id="q2a1"><label for="q2a1">Sebastian Vettel</label></li>
+                    <li><input type="radio" name="q2a2" id="q2a2"><label for="q2a2">Kimi Räikkönen</label></li>
+                    <li><input type="radio" name="q2a3" id="q2a3"><label for="q2a3">Michael Schumacher</label></li>
+                    <li><input type="radio" name="q2a4" id="q2a4"><label for="q2a4">Fernando Alonso</label></li>
+                </ul>
+                </div>
             </div>
             <div class="questions">
                 <p>What is the name of the current home circuit for the Ferrari F1 team?</p>
             </div> 
-            <div class="answers">   
-            <ul>
-                <li><input type="radio" name="q1" id="q1a1"><label for="q1a1">Monza</label></li>
-                <li><input type="radio" name="q1" id="q1a2"><label for="q1a2">Silverstone</label></li>
-                <li><input type="radio" name="q1" id="q1a3"><label for="q1a3">Circuit de Catalunya</label></li>
-                <li><input type="radio" name="q1" id="q1a4"><label for="q1a4">Suzuka</label></li>
-            </ul>
+            <div class="answers">
+                <div class="answer3">   
+                <ul>
+                    <li><input type="radio" name="q3a1" id="q3a1"><label for="q3a1">Monza</label></li>
+                    <li><input type="radio" name="q3a2" id="q3a2"><label for="q3a2">Silverstone</label></li>
+                    <li><input type="radio" name="q3a3" id="q3a3"><label for="q3a3">Circuit de Catalunya</label></li>
+                    <li><input type="radio" name="q3a4" id="q3a4"><label for="q3a4">Suzuka</label></li>
+                </ul>
+                </div>
             </div>
             <div class="questions">
                 <p>During the early 2000s, how many consecutive Constructors' Championships did Ferrari win?</p>
             </div> 
-            <div class="answers">   
-            <ul>
-                <li><input type="radio" name="q1" id="q1a1"><label for="q1a1">3</label></li>
-                <li><input type="radio" name="q1" id="q1a2"><label for="q1a2">4</label></li>
-                <li><input type="radio" name="q1" id="q1a3"><label for="q1a3">5</label></li>
-                <li><input type="radio" name="q1" id="q1a4"><label for="q1a4">6</label></li>
-            </ul>
+            <div class="answers">  
+                <div class="answer4"> 
+                <ul>
+                    <li><input type="radio" name="q4a1" id="q4a1"><label for="q4a1">3</label></li>
+                    <li><input type="radio" name="q4a2" id="q4a2"><label for="q4a2">4</label></li>
+                    <li><input type="radio" name="q4a3" id="q4a3"><label for="q4a3">5</label></li>
+                    <li><input type="radio" name="q4a4" id="q4a4"><label for="q4a4">6</label></li>
+                </ul>
+                </div>
             </div>
             <div class="questions">
                 <p>What is the iconic symbol often associated with Ferrari?</p>
             </div> 
             <div class="answers">   
-            <ul>
-                <li><input type="radio" name="q1" id="q1a1"><label for="q1a1">Bull</label></li>
-                <li><input type="radio" name="q1" id="q1a2"><label for="q1a2">Prancing Horse</label></li>
-                <li><input type="radio" name="q1" id="q1a3"><label for="q1a3">Eagle</label></li>
-                <li><input type="radio" name="q1" id="q1a4"><label for="q1a4">Lion</label></li>
-            </ul>
+                <div class="answer5">
+                <ul>
+                    <li><input type="radio" name="q5a1" id="q5a1"><label for="q5a1">Bull</label></li>
+                    <li><input type="radio" name="q5a2" id="q5a2"><label for="q5a2">Prancing Horse</label></li>
+                    <li><input type="radio" name="q5a3" id="q5a3"><label for="q5a3">Eagle</label></li>
+                    <li><input type="radio" name="q5a4" id="q5a4"><label for="q5a4">Lion</label></li>
+                </ul>
+                </div>
             </div>
-        </section>
+        </div>
+
     </main>
 
     <footer>
         <p>&copy; 2023 Ferrari F1 Team</p>
+        <div class="ferrari_ig">
+            <a href="https://www.instagram.com/scuderiaferrari/" target="_blank" class="fa fa-instagram"></a>
+        </div>
+        <div class="ferrari_fb">
+            <a href="https://www.facebook.com/ScuderiaFerrari/" target="_blank" class="fa fa-facebook"></a>
+        </div>
     </footer>
 </body>
 </html>
